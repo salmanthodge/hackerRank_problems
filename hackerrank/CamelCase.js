@@ -23,10 +23,36 @@ function repeatedString(str) {
   }
   console.log(currentword);
   if (currentword.length > 0) {
-    console.log(currentword.length);
+    // console.log(currentword.length);
     result.push(currentword);
   }
   console.log(result);
   console.log(result.length);
 }
 repeatedString("saveChangesInTheEditor");
+
+// function camelcase(s) {
+//   // Write your code here
+//   let count = 1;
+//   for(let i=0;i<s.length;i++){
+//       if(s[i]===s[i].toUpperCase()){
+//           count++;
+//       }
+//   }
+//   return count;
+
+// }
+//---------------------------------------------------------
+// function camelcase(s) {
+//   // Write your code here
+//   let count=1
+
+// for(let i=0;i<s.length; i++){
+//   if(s[i]>='A' && s[i]<='Z'){
+//       count++
+//   }
+// }
+
+// return count;
+
+// }
