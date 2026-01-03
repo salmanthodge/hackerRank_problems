@@ -1,6 +1,6 @@
 function bonAppetit(bill, k, b) {
   // Write your code here
-  let removeditem = bill.splice(k, 1);
+  // let removeditem = bill.splice(k, 1);
   // console.log(removeditem)
   // console.log(bill)
   let sum = 0;
